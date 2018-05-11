@@ -1,0 +1,16 @@
+<!--
+Description:    Displays detail fields using the external object's page layout
+Attributes:     detailSfId – SF ID of the details external object's record
+-->
+
+<aura:component controller="HrdPoc_ForceDetailExampleCtrl" 
+                implements="flexipage:availableForRecordHome,force:hasRecordId" 
+                access="global" >
+    
+	<aura:attribute name="detailSfId" type="String" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+        
+    <force:recordView recordId="{!v.detailSfId}" type="FULL"/>
+    
+</aura:component>

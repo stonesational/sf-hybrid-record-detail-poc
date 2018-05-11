@@ -1,0 +1,4 @@
+<design:component>
+    <design:attribute name="sObjectName" label="sObject" description="sObject Name" />
+    <design:attribute name="externalObjectName" label="External Object" description="External Object Name" />
+</design:component>

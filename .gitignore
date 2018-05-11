@@ -1,0 +1,17 @@
+#Mac file system index
+.DS_Store
+
+#Ignore local properties
+build.properties
+
+ant-salesforce-41.jar
+
+
+#Sublime nature exclusions
+*.sublime-workspace
+*.sublime-project
+debug/*
+
+#Mavens Mate nature exclusions
+config/*
+mm.log
